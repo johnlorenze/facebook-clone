@@ -1,0 +1,178 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Login component */
+    .app > .login > div > button {
+        width: 280px;
+    }
+
+    /* Header component */
+    .app > .header {
+        padding-right: 8px;
+        padding-left: 10px;
+    }
+
+    .header > .header__left {
+        align-items: center;
+        color: gray;
+    }
+
+    .header__input > input,
+    .header__right > .header__info {
+        display: none;
+    }
+
+    .header__left > .header__input {
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 12px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    /* App component */
+    .sidebar {
+        display: none;
+    }
+
+    .app__body > .feed {
+        padding: 10px;
+        margin-bottom: 70px;
+    }
+
+    /* StoryReel component */
+    .storyReel > .story {
+        min-width: 110px;
+        min-height: 180px;
+    }
+
+    /* MessageSender component */
+    .messageSender__top > form > :nth-child(1) {
+        width: 100%;
+    }
+
+    .messageSender__top > form > :nth-child(2) {
+        width: 95px;
+    }
+
+    .messageSender__bottom > .messageSender__option {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .messageSender__bottom > .messageSender__option > h3 {
+        font-size: small;
+        margin-left: 5px;
+    }
+
+    /* Post component */
+    .post > .post__options > :last-child {
+        display: none;
+    }
+
+    .post > .post__options {
+        font-size: small;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Feed component */
+    .app__body > .feed {
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* MessageSender component */
+    .messageSender__top > form > :nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* Header component */
+    .header > .header__center {
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 15px 15px;
+        box-shadow: 0 -5px 8px -9px rgba(0, 0, 0, 0.75);
+        height: 70px;
+        justify-content: space-evenly;
+    }
+
+    .header__center > .header__option {
+        padding: 0 12px;
+    }
+
+    .header__center > .header__option > .MuiSvgIcon-root {
+        font-size: 30px;
+    }
+
+    .header__center > .header__option:hover {
+        padding: 0 12px;
+    }
+
+    .header__center > .header__option--active {
+        border-top: 4px solid #2e81f4;
+        border-bottom: none;
+    }
+
+    /* Widgets component */
+    .widgets {
+        display: none;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* MessageSender component */
+    .messageSender__top > form > :nth-child(2) {
+        width: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Header component */
+    .header > .header__center {
+        justify-content: space-evenly;
+    }
+
+    .header__center > .header__option {
+        padding: 0 15px;
+    }
+
+    .header__center > .header__option > .MuiSvgIcon-root {
+        font-size: 30px;
+    }
+
+    .header__center > .header__option:hover {
+        padding: 0 15px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Header component */
+    .header__center > .header__option {
+        padding: 0 30px;
+    }
+
+    .header__center > .header__option > .MuiSvgIcon-root {
+        font-size: 35px;
+    }
+
+    .header__center > .header__option:hover {
+        padding: 0 30px;
+    }
+
+    /* MessageSender component */
+    .messageSender__top > form > :nth-child(2) {
+        width: 300px;
+    }
+}

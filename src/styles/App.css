@@ -1,0 +1,26 @@
+.app {
+    background-color: #f1f2f5;
+}
+
+.app__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    margin-right: 20px;
+}
+
+.feed {
+    display: flex;
+    padding: 30px 150px;
+    /* padding: 30px 0; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.widgets {
+    margin-left: 20px;
+}

@@ -1,0 +1,41 @@
+.login {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.login__form {
+    align-self: flex-start;
+}
+
+.login > div > input {
+    outline: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.login > div > button {
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+.login > div > button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+}
